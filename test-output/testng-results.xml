@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14219" started-at="2023-06-16T13:48:27 IST" finished-at="2023-06-16T13:48:41 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14219" started-at="2023-06-16T13:48:27 IST" finished-at="2023-06-16T13:48:41 IST">
+      <class name="saucedemo.testcases.LoginTestCases">
+        <test-method status="PASS" signature="initialiseDriver()[pri:0, instance:saucedemo.testcases.LoginTestCases@5f3a4b84]" name="initialiseDriver" is-config="true" duration-ms="12339" started-at="2023-06-16T13:48:27 IST" finished-at="2023-06-16T13:48:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseDriver -->
+        <test-method status="PASS" signature="unsuccessfulLoginForOtherData()[pri:0, instance:saucedemo.testcases.LoginTestCases@5f3a4b84]" name="unsuccessfulLoginForOtherData" duration-ms="868" started-at="2023-06-16T13:48:39 IST" finished-at="2023-06-16T13:48:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLoginForOtherData -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:saucedemo.testcases.LoginTestCases@5f3a4b84]" name="tearDown" is-config="true" duration-ms="862" started-at="2023-06-16T13:48:40 IST" finished-at="2023-06-16T13:48:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=unsuccessfulLoginForOtherData status=SUCCESS method=LoginTestCases.unsuccessfulLoginForOtherData()[pri:0, instance:saucedemo.testcases.LoginTestCases@5f3a4b84] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemo.testcases.LoginTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
