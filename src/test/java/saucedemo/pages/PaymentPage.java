@@ -36,12 +36,12 @@ public class PaymentPage {
 	
 	public void clickOnFinishButton() {
 		getFinish().click();
-        driver.navigate().to(Utility.readProperty("orderurl"));;
+                driver.navigate().to(Utility.readProperty("orderurl"));;
     }
 
 	 public void clickOnCancelButton() {
 		getCancel().click();
-        driver.navigate().to(Utility.readProperty("productsurl"));       
+                driver.navigate().to(Utility.readProperty("productsurl"));       
 	 }
 	 	
 }
