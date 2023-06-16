@@ -68,10 +68,10 @@ public class CheckoutPage {
 	 public void checkoutProcess() {
 		 getFirstName().sendKeys(Utility.readProperty("firstname"));
 		 getLastName().sendKeys(Utility.readProperty("lastname"));
-	     getZipPostalCode().sendKeys(Utility.readProperty("zip/postalcode"));
-	     getContinue().click();
-	     Utility.waitCode();
-	     Utility.navigateToPaymentPage();
+	         getZipPostalCode().sendKeys(Utility.readProperty("zip/postalcode"));
+	         getContinue().click();
+	         Utility.waitCode();
+	         Utility.navigateToPaymentPage();
 		 System.out.println("Payment Information , Shipping Information and Total Price will be displayed");		 
-     }
+         }
 }
