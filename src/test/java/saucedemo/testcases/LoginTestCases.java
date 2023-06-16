@@ -14,12 +14,12 @@ public class LoginTestCases extends LoginBaseTestCases {
 	@Test(enabled = false)
 	public void successfulLoginForSpecifiedData() {
 		loginpage = new LoginPage(driver);
-        loginpage.userLogin();
-        String text = Utility.readProperty("username");
-        if((text.equals("standard_user")) || (text.equals("locked_out_user")) || (text.equals("problem_user")) || (text.equals("performance_glitch_user"))) {
-        	System.out.println("Login Successful");		
-            Utility.navigateToProductsPage(); 
-        }       	
+                loginpage.userLogin();
+                String text = Utility.readProperty("username");
+                if((text.equals("standard_user")) || (text.equals("locked_out_user")) || (text.equals("problem_user")) || (text.equals("performance_glitch_user"))) {
+        	    System.out.println("Login Successful");		
+                    Utility.navigateToProductsPage(); 
+                }       	
 	}
 	
 	
@@ -27,7 +27,7 @@ public class LoginTestCases extends LoginBaseTestCases {
 	public void unsuccessfulLoginForOtherData() {
 		loginpage = new LoginPage(driver);
 		loginpage.userLogin();
-        String text = Utility.readProperty("username");
+                String text = Utility.readProperty("username");
 		assertTrue(text!="standard_user");
 		System.out.println("username and password do not match any user in this system.");
 	}	
