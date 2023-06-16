@@ -26,7 +26,7 @@ public class CheckoutTestCases extends CheckoutBaseTestCases {
 		productpage.getCartIcon().click();
 		Utility.navigateToCartPage();
 		if(productpage.getProductname().getText().equals("Sauce Labs Backpack")) {
-            System.out.println("Product is displayed on cart page.");
+                     System.out.println("Product is displayed on cart page.");
 		}
 		cartpage = new AddToCartPage(driver);
 		cartpage.getCheckout().click();
