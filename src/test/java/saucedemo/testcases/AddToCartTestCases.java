@@ -22,7 +22,7 @@ public class AddToCartTestCases extends CartBaseTestCase {
 		productpage.getCartIcon().click();
 		Utility.navigateToCartPage();
 		if(productpage.getProductname().getText().equals("Sauce Labs Backpack")) {
-            System.out.println("Product is displayed on cart page.");
+                      System.out.println("Product is displayed on cart page.");
 		}
 	}
 	
@@ -35,7 +35,7 @@ public class AddToCartTestCases extends CartBaseTestCase {
 		productpage.getCartIcon().click();
 		Utility.navigateToCartPage();
 		if(!(productpage.getProductname().getText().equals("Sauce Labs Backpack"))) {
-            System.out.println("Product is not displayed on cart page.");
+                     System.out.println("Product is not displayed on cart page.");
 		}
 	}
 }
